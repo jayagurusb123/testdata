@@ -1,0 +1,56 @@
+Hey there Biswajit,
+
+Thanks for your proposal ! You look like a perfect choice for this Gig !
+
+Here you have all of our Codes + the CSV File which is created as Zip Archive.
+
+We have created a Hotmail Email Account Generator which will be used to test out our Mail Server and Warm up our own SMTP Server with these Emails.
+
+Here are our questions and Errors we have with this code !
+
+! CHANGE THE PATH TO GECKODRIVER IN ALL SCRIPTS TO YOURS !
+
+Please start with „Mailgenerator.py“ and let it run through one time and check the Terminal.
+
+1. As you can see at the moment the code is set up to close the Application if the Site requires Phone Verification. How do we have to modify the Code to use in this case the API from https://smspva.com to perform the Phone Verification ? We would use only the Russian Number there (sometimes the sms is not received or the number is blocked in this case we have to delete the number and perform a new request on hotmail and request a new number. How we define this in python ?
+2. How do we pretty up the whole code and make a function out of the whole think to call this in a loop and perform the Generation a few times ? Any suggestions how you would optimize it ?
+3. How do we have to modify the code to grab a Text File with Proxies in the format (IP:PORT) and perform a speed check and randomly use any of them ?
+
+Now please open „proton.py“ and let it run through one time:
+
+1. As you can see the code runs also through without any issue till it comes to the „hidden“ field. On the Email Name generation page we can not call the Input Field and send the keys for „emailnamechoice“ correctly. Here we need your help how to fill this field. How do we have to modify the code here ?
+2. As you can see we are working with the Captcha Solving Service „Imagetyperz.com
+“. They are also able to perform Google Recaptchas. We are not sure if the rest of the Proton code is correct so please take a look at the resources and control if the recaptcha part is correct.
+
+
+Now we come to our final Questions and see if you are a good choice for our Team !
+
+1. We would like to build a Basic GUI for this with the Following Parameters
+
+- Dropdown Menu (Proton/Microsoft) and depending on the Choice use one or another Script and create an Account.
+- Ask how many Accounts should be created (Value between 1 and 100) and perform the Account Creation based on this.
+- Input Field for smspva.com API Key
+- Input Field API Key for Imagetyperz.com
+- Choose File for Proxy List and use them
+
+Based on your experience what is the easiest module or builder to generate this kind of GUI and what would you suggest us to change on the code to make this process easier ?
+
+2. How we can compile the Python code with all required packages and files as an .exe File to use it directly on other Windows Machines without the need to install an IDE or any Python Installer ? And if we compiled it is it „safe“ for decompiling ?
+
+
+Finally if you decide to change something on the code by yourself for easier explanation of the questions please Comment it. Also the MOST IMPORTANT part of this Gig is a good Documentation. This should be also a big kind of learning value for our developers so please in depth explain what you changed or what you suggest or what is an easy „hack“ or „trick“ in one or another situation.
+
+Below you find a list of resources and all API Documentations which is mentioned above.
+
+After all of this is solved please send us your Invoice and how you think a potential work together would look like.
+
+I hope all of this is clear and I am excited to read your answers and talk with you about them ! Best luck and greetings to you.
+
+A. Thompson
+
+————————————————————————————
+Resources:
+
+http://smspva.com/arenda.html
+
+https://www.imagetyperz.com/Forms/api/api.html
